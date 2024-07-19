@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Navbar */
+.section-header {
+    background: rgb(244, 248, 253);
+}
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+
+.navbar {
+    align-items: center;
+    padding: 20px;
+    display:flex;
+   
+}
+
+.logo {
+    width: 175px;
+}
+nav {
+    flex: 1;
+    padding: 20px;
+    text-align: right;
+}
+nav ul {
+list-style-type: none;
+display: inline-block;
+
+}
+nav ul li {
+    margin-right: 20px;
+    display: inline-block;
+
+}
+
+ul li:hover {
+    transform: translateY(30px);
+    background:red;
+    transition: 6s;
+}
+
+
+nav ul li a {
+text-decoration:none ;
+color: rgb(201, 196, 255);
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.col-6 {
+    min-width: 300px;
+    flex-basis: 50%;
+}
+.col-6 img{
+    width: 100%;
+    padding: 30px 0;
+}
+.col-6 h1{
+    font-size: 50px;
+    margin: 30px 0;
+   
+}
+.col-6 a{
+    font-size: 20px;
+  display: inline-block;
+  text-decoration: none;
+  color:black;
+  border-radius: 30px;
+  margin-top: 25px;
+  
+}
+.col-6 a:hover {
+    background-color: blue;
+    transition: background-color 5s;
+}
+
+
+
+.cotegories {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.cotegories h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cotegories .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cotegories .col-4 {
+    flex: 0 0 30%;
+}
+
+.cotegories .col-4 img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.cotegories .col-4 img:hover {
+    color: blue;
+    transform: translateY(50px);
+    transition:2s ;
+}
+
+
+/* Style pour la section des produits */
+.products.container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.products.container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Style pour les produits */
+.products .row {
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.products .row .col-3 {
+    flex: 1;
+    max-width: 22%;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background-color: #fff;
+    transition: transform 2s;
+}
+.products .row .col-3:hover{
+    background-color: blue;
+    transform: translateY(50px);
+    transition: 5s;
+}
+
+ 
+.products .row .col-3 img {
+    width: 100%;
+    height: auto;
+    
+  
+}
+
+.products .row .col-3 p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #333;
+}
+
+/* Style pour les icônes Font Awesome */
+
+.font {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px; /* Espacement entre les icônes */
+}
+
+
+.font  i{
+   
+    color:rgb(0, 204, 255); /* Couleur des icônes */
+    font-size: 15px; /* Taille des icônes */
+}
+
+/* Style pour la section Derniere */
+.Derniere.container {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.Derniere.container h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Style pour les produits */
+.Derniere .row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+    
+}
+
+.Derniere .row .col-3 {
+    flex: 1;
+    max-width: 22%;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.Derniere .row .col-3 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px 10px 0 0;
+  
+}
+   
+
+.Derniere .row .col-3 img:hover{
+    background-color: blue;
+    transform: translateX(50px);
+    transition: 5s;
+}
+
+.Derniere .row .col-3 p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #333;
+}
+
+
+footer {
+    background: rgb(244, 248, 253);
+    text-align: center;
+    padding: 20px 0;
+}
+
+
